@@ -1,0 +1,21 @@
+# Secrets
+.env
+*.key
+credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Données (trop lourdes : on les télécharge via des scripts)
+data/raw/
+*.csv
+*.parquet
+*.db
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
